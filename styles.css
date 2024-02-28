@@ -1,0 +1,61 @@
+/* CSS for the body */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif; /* Default font family */
+    background-image: url('background.jpeg'); /* Background image */
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the background */
+    background-repeat: no-repeat; /* Do not repeat the background */
+    height: 100vh; /* Full height of the viewport */
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    flex-direction: column; /* Stack items vertically */
+}
+
+/* CSS for the logo */
+#logo {
+    width: 900px; /* Width of the logo */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 50px; /* Space below the logo */
+    transition: filter 0.3s ease; /* Smooth transition for filter property */
+}
+
+/* Invert the logo */
+#logo {
+    filter: invert(100%); /* Invert the logo colors by default */
+}
+
+/* Revert the logo on hover */
+#logo:hover {
+    filter: invert(0%); /* Revert the colors on hover */
+}
+
+/* CSS for the buttons */
+.button {
+    background-color: transparent; /* Transparent background */
+    border: none; /* No border */
+    color: rgb(255, 255, 255); /* White text color */
+    font-size: 15px; /* Font size */
+    cursor: pointer; /* Show pointer cursor */
+    transition: color 0.3s ease; /* Smooth transition for color */
+    font-family: Futura, Arial, sans-serif; /* Apply Futura font */
+    margin-top: 15px; /* Add margin between buttons */
+}
+
+/* Change text color on hover */
+.button:hover {
+    color: rgb(126, 126, 126); /* Darken text color */
+}
+
+/* CSS for the footer */
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: transparent;
+    color: #fff;
+    padding: 10px 0;
+}
