@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>YouTube Video Player</title>
+<style>
+  body {
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .video-item {
+    width: calc(25% - 20px);
+    margin: 10px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .video-item iframe {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s ease;
+  }
+
+  .video-item:hover iframe {
+    transform: scale(1.1);
+  }
+
+  .back-button {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    z-index: 1000;
+  }
+
+  .back-button:hover {
+    color: #ccc;
+  }
+</style>
+</head>
+<body>
+
+<button class="back-button" onclick="window.history.back()">Back</button>
+
+<div class="container">
+  <!-- Each video URL is set to the same YouTube video -->
+  <div class="video-item">
+    <a href="https://www.youtube.com/watch?v=JUodmkXP41s">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/JUodmkXP41s" frameborder="0" allowfullscreen></iframe>
+    </a>
+  </div>
+  <!-- Repeat this div for each video -->
+  <!-- Example: -->
+  <div class="video-item">
+    <a href="https://www.youtube.com/watch?v=JUodmkXP41s">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/JUodmkXP41s" frameborder="0" allowfullscreen></iframe>
+    </a>
+  </div>
+  <!-- Repeat the above div 38 more times -->
+</div>
+
+<div class="container">
+    <!-- Each video URL is set to the same YouTube video -->
+    <div class="video-item">
+      <a href="https://www.youtube.com/watch?v=JUodmkXP41s">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/JUodmkXP41s" frameborder="0" allowfullscreen></iframe>
+      </a>
+    </div>
+    <!-- Repeat this div for each video -->
+    <!-- Example: -->
+    <div class="video-item">
+      <a href="https://www.youtube.com/watch?v=JUodmkXP41s">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/JUodmkXP41s" frameborder="0" allowfullscreen></iframe>
+      </a>
+    </div>
+    <!-- Repeat the above div 38 more times -->
+  </div>
+
+  <div class="container">
+    <!-- Each video URL is set to the same YouTube video -->
+    <div class="video-item">
+      <a href="https://www.youtube.com/watch?v=JUodmkXP41s">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/JUodmkXP41s" frameborder="0" allowfullscreen></iframe>
+      </a>
+    </div>
+    <!-- Repeat this div for each video -->
+    <!-- Example: -->
+    <div class="video-item">
+      <a href="https://www.youtube.com/watch?v=JUodmkXP41s">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/JUodmkXP41s" frameborder="0" allowfullscreen></iframe>
+      </a>
+    </div>
+    <!-- Repeat the above div 38 more times -->
+  </div>
+
+  <div class="container">
+    <!-- Each video URL is set to the same YouTube video -->
+    <div class="video-item">
+      <a href="https://www.youtube.com/watch?v=JUodmkXP41s">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/JUodmkXP41s" frameborder="0" allowfullscreen></iframe>
+      </a>
+    </div>
+    <!-- Repeat this div for each video -->
+    <!-- Example: -->
+    <div class="video-item">
+      <a href="https://www.youtube.com/watch?v=JUodmkXP41s">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/JUodmkXP41s" frameborder="0" allowfullscreen></iframe>
+      </a>
+    </div>
+    <!-- Repeat the above div 38 more times -->
+  </div>
+
+  <div class="container">
+    <!-- Each video URL is set to the same YouTube video -->
+    <div class="video-item">
+      <a href="https://www.youtube.com/watch?v=JUodmkXP41s">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/JUodmkXP41s" frameborder="0" allowfullscreen></iframe>
+      </a>
+    </div>
+    <!-- Repeat this div for each video -->
+    <!-- Example: -->
+    <div class="video-item">
+      <a href="https://www.youtube.com/watch?v=JUodmkXP41s">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/JUodmkXP41s" frameborder="0" allowfullscreen></iframe>
+      </a>
+    </div>
+    <!-- Repeat the above div 38 more times -->
+  </div>
+
+  <div class="container">
+    <!-- Each video URL is set to the same YouTube video -->
+    <div class="video-item">
+      <a href="https://www.youtube.com/watch?v=JUodmkXP41s">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/JUodmkXP41s" frameborder="0" allowfullscreen></iframe>
+      </a>
+    </div>
+    <!-- Repeat this div for each video -->
+    <!-- Example: -->
+    <div class="video-item">
+      <a href="https://www.youtube.com/watch?v=JUodmkXP41s">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/JUodmkXP41s" frameborder="0" allowfullscreen></iframe>
+      </a>
+    </div>
+    <!-- Repeat the above div 38 more times -->
+  </div>
+
+  <div class="container">
+    <!-- Each video URL is set to the same YouTube video -->
+    <div class="video-item">
+      <a href="https://www.youtube.com/watch?v=JUodmkXP41s">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/JUodmkXP41s" frameborder="0" allowfullscreen></iframe>
+      </a>
+    </div>
+    <!-- Repeat this div for each video -->
+    <!-- Example: -->
+    <div class="video-item">
+      <a href="https://www.youtube.com/watch?v=JUodmkXP41s">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/JUodmkXP41s" frameborder="0" allowfullscreen></iframe>
+      </a>
+    </div>
+    <!-- Repeat the above div 38 more times -->
+  </div>
+
+  <div class="container">
+    <!-- Each video URL is set to the same YouTube video -->
+    <div class="video-item">
+      <a href="https://www.youtube.com/watch?v=JUodmkXP41s">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/JUodmkXP41s" frameborder="0" allowfullscreen></iframe>
+      </a>
+    </div>
+    <!-- Repeat this div for each video -->
+    <!-- Example: -->
+    <div class="video-item">
+      <a href="https://www.youtube.com/watch?v=JUodmkXP41s">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/JUodmkXP41s" frameborder="0" allowfullscreen></iframe>
+      </a>
+    </div>
+    <!-- Repeat the above div 38 more times -->
+  </div>
+
+  <div class="container">
+    <!-- Each video URL is set to the same YouTube video -->
+    <div class="video-item">
+      <a href="https://www.youtube.com/watch?v=JUodmkXP41s">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/JUodmkXP41s" frameborder="0" allowfullscreen></iframe>
+      </a>
+    </div>
+    <!-- Repeat this div for each video -->
+    <!-- Example: -->
+    <div class="video-item">
+      <a href="https://www.youtube.com/watch?v=JUodmkXP41s">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/JUodmkXP41s" frameborder="0" allowfullscreen></iframe>
+      </a>
+    </div>
+    <!-- Repeat the above div 38 more times -->
+  </div>
+
+  
+<script>
+  // Add event listeners to each video item
+  const videoItems = document.querySelectorAll('.video-item');
+  videoItems.forEach(item => {
+    item.addEventListener('mouseover', () => {
+      // Play the video on hover
+      const iframe = item.querySelector('iframe');
+      iframe.contentWindow.postMessage('{"event":"command","func":"playVideo","args":""}', '*');
+    });
+
+    item.addEventListener('mouseout', () => {
+      // Pause the video when mouse leaves
+      const iframe = item.querySelector('iframe');
+      iframe.contentWindow.postMessage('{"event":"command","func":"pauseVideo","args":""}', '*');
+    });
+  });
+</script>
+
+</body>
+</html>

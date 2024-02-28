@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Futura, Arial, sans-serif; /* Apply Futura font */
+    background-image: url('background.jpeg'); /* Set background image */
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the background */
+    background-repeat: no-repeat; /* Do not repeat the background */
+    position: relative; /* Set position to relative */
+}
+
+.back-button {
+    top: 15px;
+    right: -1100px;
+    background-color: transparent; /* Make the background transparent */
+    color: white; /* Set text color to white */
+    border: none;
+    padding: 25px 30px; /* Adjusted padding to increase activation radius */
+    cursor: pointer;
+    transition: color 0.3s ease; /* Smooth transition for text color */
+    font-family: Futura, Arial, sans-serif; /* Apply Futura font */
+    font-size: 14px; /* Adjust font size */
+    position: relative; /* Fixed position to keep it at the top */
+    z-index: 100; /* Ensure it's on top of other elements */
+}
+
+.back-button:hover {
+    color: lightgray; /* Light gray text color on hover */
+}
+
+.product-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 50px auto; /* Adjusted margin */
+}
+
+.product {
+    width: 250px;
+    margin: 20px auto; /* Adjusted margin */
+    position: relative;
+    overflow: hidden;
+    text-align: center; /* Center align the content */
+}
+
+.product-image {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease; /* Smooth transition for zoom effect */
+}
+
+.product:hover .product-image {
+    transform: scale(1.1); /* Zoom in on hover */
+}
+
+.price {
+    color: white; /* Set text color to white */
+    font-size: 14px; /* Set font size */
+    margin-bottom: 5px; /* Adjusted margin */
+    display: block; /* Ensure it appears on its own line */
+}
+
+.buy-button {
+    background-color: rgba(0, 0, 0, 0); /* Slightly transparent white color */
+    color: white; /* Set text color to white */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition for button color */
+    font-family: Futura, Arial, sans-serif; /* Apply Futura font */
+    font-size: 20px; /* Adjust font size */
+    display: block; /* Ensure it appears on its own line */
+    margin: 0 auto; /* Center the button */
+}
+
+.buy-button:hover {
+    background-color: rgba(255, 255, 255, 0); /* Lighten button color on hover */
+}
+
+.product:hover .buy-button {
+    bottom: 1px; /* Adjusted position on hover */
+}
