@@ -82,3 +82,20 @@ body {
 .product:hover .buy-button {
     bottom: 1px; /* Adjusted position on hover */
 }
+
+/* Media query for mobile screens */
+@media screen and (max-width: 768px) {
+    .back-button {
+        right: 15px; /* Adjusted right position for mobile */
+        padding: 15px; /* Adjusted padding for better mobile usability */
+    }
+
+    .product {
+        width: calc(50% - 20px); /* Adjusted width for better mobile layout */
+        margin: 20px 10px; /* Adjusted margin for better spacing */
+    }
+
+    .buy-button {
+        font-size: 16px; /* Adjusted font size for better mobile layout */
+    }
+}
