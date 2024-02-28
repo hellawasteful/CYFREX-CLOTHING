@@ -5,6 +5,42 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Products</title>
 <link rel="stylesheet" href="products.css">
+<style>
+    /* Additional CSS for mobile compatibility */
+    .back-button {
+        top: 15px;
+        right: -1100px; /* Initial position for desktop */
+    }
+    .product-container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        max-width: 1200px;
+        margin: 50px auto; /* Adjusted margin */
+    }
+    .product {
+        width: 250px;
+        margin: 20px auto; /* Adjusted margin */
+    }
+    .buy-button {
+        font-size: 20px;
+    }
+
+    /* Media query for mobile screens */
+    @media screen and (max-width: 768px) {
+        .back-button {
+            right: 15px; /* Adjusted position for mobile */
+        }
+        .product {
+            width: calc(50% - 20px); /* Adjusted width for better mobile layout */
+            margin: 20px 10px; /* Adjusted margin for better spacing */
+        }
+        .buy-button {
+            font-size: 16px; /* Adjusted font size for better mobile layout */
+        }
+    }
+</style>
 </head>
 <body>
     <button class="back-button" onclick="window.location.href='index.html'">BACK</button>
