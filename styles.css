@@ -59,3 +59,17 @@ footer {
     color: #fff;
     padding: 10px 0;
 }
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+    /* Adjust styles for smaller screens */
+    #logo {
+        width: 80%; /* Reduce logo width for smaller screens */
+        margin-bottom: 20px; /* Reduce space below the logo */
+    }
+    
+    .button {
+        font-size: 12px; /* Decrease button font size for smaller screens */
+        margin-top: 10px; /* Reduce margin between buttons */
+    }
+}
