@@ -19,7 +19,7 @@ body {
     cursor: pointer;
     transition: color 0.3s ease; /* Smooth transition for text color */
     font-family: Futura, Arial, sans-serif; /* Apply Futura font */
-    font-size: 14px; /* Adjust font size */
+    font-size: 24px; /* Adjust font size */
     position: relative; /* Fixed position to keep it at the top */
     z-index: 100; /* Ensure it's on top of other elements */
 }
